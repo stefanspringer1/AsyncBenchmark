@@ -4,7 +4,7 @@ Benchmark for Swift's async/await in a special variation.
 
 Note that:
 
-1. In those tests, the factor between an async call and a non-async call is quite low in most cases (near 1).
+1. In those tests, the factor between async calls and non-asyncs call is quite low in most cases (near 1).
 2. But there are three cases where this factors is quite high (~ 227, ~ 42, and ~ 6703). (In debug mode, only the last one is much higher than one, ~ 22).
 
 Result:
